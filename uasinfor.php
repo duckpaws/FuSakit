@@ -51,8 +51,8 @@ $butuhistirahat = $istirahat * 7;
     if ($seminggu >= $butuhkalori && $semingguis >= $butuhistirahat){
         echo "Jadi, Fu sudah sembuh dan dapat beraktifitas secara normal";
     }
-    elseif ($seminggu <= $butuhkalori && $semingguis <= $butuhistirahat) {
-        echo "Jadi, Fu masih butuh istirahat dan kalori yang mencukupi";
+    else {
+        echo "Jadi, Fu masih sakit dan butuh istirahat dan kalori yang mencukupi";
     }
 
 
